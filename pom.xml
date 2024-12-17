@@ -46,6 +46,10 @@
             <name>GitHub cmu-db/benchbase Apache Maven Packages</name>
             <url>https://maven.pkg.github.com/cmu-db/benchbase</url>
         </repository>
+        <repository>
+            <id>clojars.org</id>
+            <url>https://repo.clojars.org</url>
+        </repository>
     </distributionManagement>
 
     <profiles>
