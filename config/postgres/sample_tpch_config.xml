@@ -5,8 +5,8 @@
     <type>POSTGRES</type>
     <driver>org.postgresql.Driver</driver>
     <url>jdbc:postgresql://localhost:5432/benchbase?sslmode=disable&amp;ApplicationName=tpch&amp;reWriteBatchedInserts=true</url>
-    <username>admin</username>
-    <password>password</password>
+    <username>postgres</username>
+    <password>mysecretpassword</password>
     <reconnectOnConnectionFailure>true</reconnectOnConnectionFailure>
     <isolation>TRANSACTION_SERIALIZABLE</isolation>
     <batchsize>1024</batchsize>
