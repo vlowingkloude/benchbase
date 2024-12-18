@@ -4,7 +4,7 @@
     <!-- Connection details -->
     <type>POSTGRES</type>
     <driver>org.postgresql.Driver</driver>
-    <url>jdbc:postgresql://localhost:5432/benchbase?sslmode=disable&amp;ApplicationName=tpch&amp;reWriteBatchedInserts=true</url>
+    <url>jdbc:postgresql://localhost:5432/postgres?sslmode=disable&amp;ApplicationName=tpch&amp;reWriteBatchedInserts=true</url>
     <username>postgres</username>
     <password>mysecretpassword</password>
     <reconnectOnConnectionFailure>true</reconnectOnConnectionFailure>
