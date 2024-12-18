@@ -1,11 +1,11 @@
-DROP TABLE nation;
-DROP TABLE region;
-DROP TABLE part;
-DROP TABLE supplier;
-DROP TABLE partsupp;
-DROP TABLE orders;
-DROP TABLE customer;
-DROP TABLE lineitem;
+DROP TABLE IF EXISTS nation;
+DROP TABLE IF EXISTS region;
+DROP TABLE IF EXISTS part;
+DROP TABLE IF EXISTS supplier;
+DROP TABLE IF EXISTS partsupp;
+DROP TABLE IF EXISTS orders;
+DROP TABLE IF EXISTS customer;
+DROP TABLE IF EXISTS lineitem;
 
 -- Sccsid:     @(#)dss.ddl  2.1.8.1
 CREATE TABLE nation  ( n_nationkey  INTEGER NOT NULL,
@@ -55,8 +55,8 @@ CREATE TABLE orders  ( o_orderkey       INTEGER NOT NULL,
                        o_orderstatus    CHAR(1) NOT NULL,
                        o_totalprice     DECIMAL(15,2) NOT NULL,
                        o_orderdate      DATE NOT NULL,
-                       o_orderpriority  CHAR(15) NOT NULL,  
-                       o_clerk          CHAR(15) NOT NULL, 
+                       o_orderpriority  CHAR(15) NOT NULL,
+                       o_clerk          CHAR(15) NOT NULL,
                        o_shippriority   INTEGER NOT NULL,
                        o_comment        VARCHAR(79) NOT NULL);
 
