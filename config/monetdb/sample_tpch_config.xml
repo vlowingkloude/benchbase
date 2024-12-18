@@ -5,8 +5,8 @@
     <type>MonetDB</type>
     <driver>org.monetdb.jdbc.MonetDriver</driver>
     <url>jdbc:monetdb://localhost:50000/</url>
-    <username>pa</username>
-    <password></password>
+    <username>monetdb</username>
+    <password>monetdb</password>
     <reconnectOnConnectionFailure>true</reconnectOnConnectionFailure>
     <isolation>TRANSACTION_SERIALIZABLE</isolation>
     <batchsize>1024</batchsize>
