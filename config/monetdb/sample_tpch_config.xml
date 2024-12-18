@@ -4,7 +4,7 @@
     <!-- Connection details -->
     <type>MonetDB</type>
     <driver>org.monetdb.jdbc.MonetDriver</driver>
-    <url>jdbc:monetdb://localhost:50000/</url>
+    <url>jdbc:monetdb://localhost:50000/monetdb</url>
     <username>monetdb</username>
     <password>monetdb</password>
     <reconnectOnConnectionFailure>true</reconnectOnConnectionFailure>
