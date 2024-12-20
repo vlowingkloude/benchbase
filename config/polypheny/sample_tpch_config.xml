@@ -2,7 +2,7 @@
 <parameters>
 
     <!-- Connection details -->
-    <type>Polypheny</type>
+    <type>polypheny</type>
     <driver>org.polypheny.jdbc.PolyphenyDriver</driver>
     <url>jdbc:polypheny://localhost/</url>
     <username>pa</username>
