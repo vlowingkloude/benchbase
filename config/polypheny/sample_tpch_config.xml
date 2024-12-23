@@ -4,7 +4,7 @@
     <!-- Connection details -->
     <type>polypheny</type>
     <driver>org.polypheny.jdbc.PolyphenyDriver</driver>
-    <url>jdbc:polypheny://localhost/</url>
+    <url>jdbc:polypheny://localhost/benchbase</url>
     <username>pa</username>
     <password></password>
     <reconnectOnConnectionFailure>true</reconnectOnConnectionFailure>
